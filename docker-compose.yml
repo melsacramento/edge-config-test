@@ -2,4 +2,4 @@ services:
   nginx_test:
     image: nginx:alpine
     volumes:
-      - ./docker/${PORTAINER_EDGE_ID}:/docker
+      - ./test/${PORTAINER_EDGE_ID}:/docker
